@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>kznagamori.WinFormsBlazorMinApp</id>
+    <version>1.0.0</version>
+    <authors>kznanamori</authors>
+    <owners>kznanamori</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WinForms Blazor Minimal App</description>
+    <tags>WinForms, Blazor, desktop</tags>
+  </metadata>
+  <files>
+    <file src="**" target="content" />
+  </files>
+</package>
