@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Components.WebView.WindowsForms;
 using Microsoft.Extensions.DependencyInjection;
+using ___PROJECTNAME___.Components;
 
 namespace ___PROJECTNAME___;
 
@@ -17,7 +18,7 @@ public partial class MainForm : Form
             HostPage = "wwwroot\\index.html",
             Services = serviceProvider,
         };
-        blazorWebView.RootComponents.Add<Components.Pages.Main>("#app");
+        blazorWebView.RootComponents.Add<Routes>("#app");
         Controls.Add(blazorWebView);
     }
 }
